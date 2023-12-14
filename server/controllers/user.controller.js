@@ -1,8 +1,8 @@
 import User from '../mongodb/models/user';
 
-const getAllUsers = async () => {};
-const createUser = async () => {};
-const getUserById = async () => {};
+const getAllUsers = async (req, res) => {};
+const createUser = async (req, res) => {};
+const getUserById = async (req, res) => {};
 
 export {
     getAllUsers,
