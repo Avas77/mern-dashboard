@@ -1,9 +1,18 @@
 import express from "express";
+import {
+    getAllProperties,
+    createProperty,
+    getPropertyDetail,
+    updateProperty,
+    deleteProperty
+} from '../controllers/property.controller.js'
 
-const router = new express.Router();
+const router = express.Router();
 
-router.post("/api/v1/create", () => {
-    
-})
+router.get("/", getAllProperties);
+router.post("/", createProperty);
+router.get("/:id", getPropertyDetail);
+router.patch("/:id", updateProperty);
+router.delete("/:id", deleteProperty);
 
 export default router;

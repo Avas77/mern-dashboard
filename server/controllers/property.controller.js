@@ -1,4 +1,4 @@
-import Property from '../mongodb/models/property'
+import Property from '../mongodb/models/property.js'
 
 const getAllProperties = async (req, res) => {};
 const createProperty = async (req, res) => {};
