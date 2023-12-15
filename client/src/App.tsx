@@ -6,7 +6,6 @@ import VillaOutlined from "@mui/icons-material/VillaOutlined";
 import CssBaseline from "@mui/material/CssBaseline";
 import GlobalStyles from "@mui/material/GlobalStyles";
 import {
-    GitHubBanner,
     LegacyAuthProvider as AuthProvider,
     Refine,
 } from "@refinedev/core";
@@ -124,7 +123,6 @@ function App() {
 
     return (
         <ColorModeContextProvider>
-            <GitHubBanner />
             <CssBaseline />
             <GlobalStyles styles={{ html: { WebkitFontSmoothing: "auto" } }} />
             <RefineSnackbarProvider>
